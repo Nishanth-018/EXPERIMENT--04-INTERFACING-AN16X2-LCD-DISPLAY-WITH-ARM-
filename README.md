@@ -179,9 +179,9 @@ static void MX_GPIO_Init(void);
 void lcd_display()
 {
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"Aaron Rajesh J\n");
+	Lcd_string(&lcd,"Nishanth J\n");
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212223100001");
+	Lcd_string(&lcd,"212223100040");
 
 	for(int x=0; x<100; x++)
 	{
@@ -276,7 +276,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
- ![image](https://github.com/user-attachments/assets/d9eb5e88-817a-4daf-a4f6-76673bc242fb)
+![WhatsApp Image 2024-11-12 at 17 24 04_29d27ddd](https://github.com/user-attachments/assets/cdfcd950-3aec-40f8-bd3f-012d3d9b2d40)
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
